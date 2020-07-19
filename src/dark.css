@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-html {
-  background: rgb(236, 244, 255) ;
+:root {
+  --background-dark: #232B32;
+  --font-dark: #C3B6A2;
+  --font-light: #F3E4CD;
+  --font-black: #333;
 }
+
+
+html {
+  background: var(--background-dark);
+  color: var(--font-dark);
+}
+
 
 body {
   margin: 0;
@@ -12,13 +22,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   padding-bottom: 320px;
-  background-image: url("./Group 3.svg");
+  background-image: url("./Group 3.svg");n
   background-position: bottom;
   background-repeat: no-repeat;
 }
 
+
 body * {
-  transition: all 500ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 
@@ -27,8 +38,6 @@ body * {
   margin: 0 auto;
  
 }
-
-
 
 nav {
   display: flex;
@@ -40,15 +49,17 @@ nav {
   color: #111;
 }
 
+
 nav ul {
   list-style: none;
   padding: 0px;
   margin: 10px 0px;
 }
 
+
 nav ul li a {
   text-decoration: none;
-  color: #111;
+  color: var(--font-light);
 }
 
 nav ul li {
@@ -104,13 +115,14 @@ header div a {
 }
 
 header div a, .newsletter input[type="submit"] {
-  border: 1px solid blue;
-  color: blue;
+  border: 1px solid var(--font-light);
+  color: var(--font-light);
 }
 
+
 header div a:hover, .newsletter input[type="submit"]:hover {
-  background: blue;
-  color: #eee;  
+  background: var(--font-light);
+  color: var(--font-black);  
 }
 
 main {
@@ -123,9 +135,10 @@ h2 {
   
 }
 
+
 h3 {
   font-size: 30px;
-  color: rgb(12, 0, 116);
+  color: var(--font-light);
 }
 
 
@@ -189,19 +202,19 @@ h3 {
 
 }
 
+
 .newsletter input[type="email"] {
   width: 60%;
   display: inline-block;
-  border: 1px solid #222;
-
+  border: 1px solid var(--font-light);
+  background-color: #f3e4cdd3;
   margin-right: 20px;
-
 }
+
 
 .newsletter input[type="submit"]{
   width: 170px;
-  color: blue;
- 
+  color: var(--font-light);
   cursor: pointer;
 }
 
@@ -230,25 +243,27 @@ h3 {
   border: 1px solid #eee;
 }
 
+
 .contact input[type="submit"] {
-  background: blue;
+  background: var(--font-light);
   width: 30%;
   text-indent: 0px;
-  color: #eee;
+  color: var(--font-black);
   font-size: 20px;
   border-radius: 40px;
   margin: 40px 0px 0px auto;
+  cursor: pointer;
 }
 
 .back {
   background: none;
   padding: 10px;
   border: none;
-  border-bottom: 3px solid blue;
+  border-bottom: 3px solid var(--font-light);
   font-size: 14px;
   margin-top: 50px;
   cursor: pointer;
-  color: blue;
+  color: var(--font-light);
 }
 
 @media screen and (max-width: 1600px){

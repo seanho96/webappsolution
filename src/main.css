@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
+:root {
+  --background-dark: #232B32;
+  --font-dark: #C3B6A2;
+  --font-light: #F3E4CD;
+  --font-black: #333;
+}
+
+
 html {
   background: rgb(236, 244, 255) ;
 }
+
+/* .dark-mode .App {
+  background: var(--background-dark);
+  color: var(--font-dark);
+} */
 
 body {
   margin: 0;
@@ -17,8 +30,9 @@ body {
   background-repeat: no-repeat;
 }
 
+
 body * {
-  transition: all 500ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 
@@ -27,8 +41,6 @@ body * {
   margin: 0 auto;
  
 }
-
-
 
 nav {
   display: flex;
@@ -40,6 +52,7 @@ nav {
   color: #111;
 }
 
+
 nav ul {
   list-style: none;
   padding: 0px;
@@ -49,6 +62,11 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: #111;
+}
+
+.dark-mode nav ul li a {
+  text-decoration: none;
+  color: var(--font-light);
 }
 
 nav ul li {
@@ -108,9 +126,19 @@ header div a, .newsletter input[type="submit"] {
   color: blue;
 }
 
+.dark-mode header div a, .newsletter input[type="submit"] {
+  border: 1px solid var(--font-light);
+  color: var(--font-light);
+}
+
 header div a:hover, .newsletter input[type="submit"]:hover {
   background: blue;
   color: #eee;  
+}
+
+.dark-mode header div a:hover, .newsletter input[type="submit"]:hover {
+  background: var(--font-light);
+  color: var(--font-black);  
 }
 
 main {
@@ -126,6 +154,11 @@ h2 {
 h3 {
   font-size: 30px;
   color: rgb(12, 0, 116);
+}
+
+.dark-mode h3 {
+  font-size: 30px;
+  color: var(--font-light);
 }
 
 
@@ -193,15 +226,27 @@ h3 {
   width: 60%;
   display: inline-block;
   border: 1px solid #222;
-
   margin-right: 20px;
 
+}
+
+.dark-mode .newsletter input[type="email"] {
+  width: 60%;
+  display: inline-block;
+  border: 1px solid var(--font-light);
+  background-color: #f3e4cdd3;
+  margin-right: 20px;
 }
 
 .newsletter input[type="submit"]{
   width: 170px;
   color: blue;
- 
+  cursor: pointer;
+}
+
+.dark-mode .newsletter input[type="submit"]{
+  width: 170px;
+  color: var(--font-light);
   cursor: pointer;
 }
 
@@ -240,6 +285,17 @@ h3 {
   margin: 40px 0px 0px auto;
 }
 
+.dark-mode .contact input[type="submit"] {
+  background: var(--font-light);
+  width: 30%;
+  text-indent: 0px;
+  color: var(--font-black);
+  font-size: 20px;
+  border-radius: 40px;
+  margin: 40px 0px 0px auto;
+  cursor: pointer;
+}
+
 .back {
   background: none;
   padding: 10px;
@@ -249,6 +305,17 @@ h3 {
   margin-top: 50px;
   cursor: pointer;
   color: blue;
+}
+
+.dark-mode .back {
+  background: none;
+  padding: 10px;
+  border: none;
+  border-bottom: 3px solid var(--font-light);
+  font-size: 14px;
+  margin-top: 50px;
+  cursor: pointer;
+  color: var(--font-light);
 }
 
 @media screen and (max-width: 1600px){
