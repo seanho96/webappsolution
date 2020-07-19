@@ -9,9 +9,9 @@ import Thanks from "./components/Thanks";
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" component={Main} />
-      <Route exact path="/contact" component={Contact} />
-      <Route exact path="/thanks/:name" component={Thanks} />
+      <Route exact path="/webappsolution/" component={Main} />
+      <Route exact path="/webappsolution/contact" component={Contact} />
+      <Route exact path="/webappsolution/thanks/:name" component={Thanks} />
     </Switch>
   )
 };
