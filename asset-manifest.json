@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/webappsolution/static/css/main.54a59f75.chunk.css",
-    "main.js": "/webappsolution/static/js/main.18d6dab2.chunk.js",
-    "main.js.map": "/webappsolution/static/js/main.18d6dab2.chunk.js.map",
-    "runtime-main.js": "/webappsolution/static/js/runtime-main.0221198f.js",
-    "runtime-main.js.map": "/webappsolution/static/js/runtime-main.0221198f.js.map",
-    "static/js/2.39e9ec04.chunk.js": "/webappsolution/static/js/2.39e9ec04.chunk.js",
-    "static/js/2.39e9ec04.chunk.js.map": "/webappsolution/static/js/2.39e9ec04.chunk.js.map",
-    "index.html": "/webappsolution/index.html",
-    "precache-manifest.0a5b8b58731c0d3d2967beb05bb0aae5.js": "/webappsolution/precache-manifest.0a5b8b58731c0d3d2967beb05bb0aae5.js",
-    "service-worker.js": "/webappsolution/service-worker.js",
-    "static/css/main.54a59f75.chunk.css.map": "/webappsolution/static/css/main.54a59f75.chunk.css.map",
-    "static/js/2.39e9ec04.chunk.js.LICENSE.txt": "/webappsolution/static/js/2.39e9ec04.chunk.js.LICENSE.txt",
-    "static/media/dark.css": "/webappsolution/static/media/Group 3.1b483f5f.svg",
-    "static/media/hero.svg": "/webappsolution/static/media/hero.0e48089f.svg"
+    "main.css": "/react-landing-page/static/css/main.c32e39f3.chunk.css",
+    "main.js": "/react-landing-page/static/js/main.99ab582f.chunk.js",
+    "main.js.map": "/react-landing-page/static/js/main.99ab582f.chunk.js.map",
+    "runtime-main.js": "/react-landing-page/static/js/runtime-main.afd55552.js",
+    "runtime-main.js.map": "/react-landing-page/static/js/runtime-main.afd55552.js.map",
+    "static/js/2.39e9ec04.chunk.js": "/react-landing-page/static/js/2.39e9ec04.chunk.js",
+    "static/js/2.39e9ec04.chunk.js.map": "/react-landing-page/static/js/2.39e9ec04.chunk.js.map",
+    "index.html": "/react-landing-page/index.html",
+    "precache-manifest.44dd908508a165926752b1f006e29769.js": "/react-landing-page/precache-manifest.44dd908508a165926752b1f006e29769.js",
+    "service-worker.js": "/react-landing-page/service-worker.js",
+    "static/css/main.c32e39f3.chunk.css.map": "/react-landing-page/static/css/main.c32e39f3.chunk.css.map",
+    "static/js/2.39e9ec04.chunk.js.LICENSE.txt": "/react-landing-page/static/js/2.39e9ec04.chunk.js.LICENSE.txt",
+    "static/media/dark.css": "/react-landing-page/static/media/Group 3.1b483f5f.svg",
+    "static/media/hero.svg": "/react-landing-page/static/media/hero.0e48089f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0221198f.js",
+    "static/js/runtime-main.afd55552.js",
     "static/js/2.39e9ec04.chunk.js",
-    "static/css/main.54a59f75.chunk.css",
-    "static/js/main.18d6dab2.chunk.js"
+    "static/css/main.c32e39f3.chunk.css",
+    "static/js/main.99ab582f.chunk.js"
   ]
 }
